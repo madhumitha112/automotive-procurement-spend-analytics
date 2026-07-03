@@ -18,3 +18,14 @@ MAT016,Hex Nut M8,Fasteners,Pieces
 MAT017,Washer M8,Fasteners,Pieces
 MAT018,Gear Oil,Lubricants,Litres
 MAT019,Grease,Lubricants,Kilograms
+MAT020,Clutch Plate,Transmission,Pieces
+MAT021,Pressure Plate,Transmission,Pieces
+MAT022,Planetary Gear,Gears,Pieces
+MAT023,Bearing Housing,Castings,Pieces
+MAT024,Transmission Housing,Castings,Pieces
+MAT025,Control Valve,Hydraulics,Pieces
+MAT026,Hydraulic Pump,Hydraulics,Pieces
+MAT027,Steel Shim,Fasteners,Pieces
+MAT028,Spring Washer,Fasteners,Pieces
+MAT029,Relay Module,Electronics,Pieces
+MAT030,Position Sensor,Electronics,Pieces
