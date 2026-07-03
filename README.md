@@ -83,6 +83,14 @@ The project uses a synthetic dataset that mimics real procurement operations and
 
 ---
 
+Suppliers -------- Purchase_Orders -------- Materials
+                         |
+                         |
+                    Deliveries
+
+Plants -------- Purchase_Requisitions -------- Materials
+
+
 ## Key Performance Indicators (KPIs)
 
 ### Procurement KPIs
