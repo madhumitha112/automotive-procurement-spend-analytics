@@ -1,0 +1,5 @@
+CREATE DATABASE AutomotiveProcurementAnalytics;
+GO
+
+USE AutomotiveProcurementAnalytics;
+GO

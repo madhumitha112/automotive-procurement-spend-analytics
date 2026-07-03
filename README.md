@@ -148,7 +148,7 @@ Plants -------- Purchase_Requisitions -------- Materials
 ## Technology Stack
 
 * Microsoft Excel
-* SQL
+* SQL (SQL Server Express + SSMS)
 * Power BI
 * DAX
 * Power Query
