@@ -1,0 +1,11 @@
+Supplier_ID,Supplier_Name,Country,City,Lead_Time_Days,Quality_Rating
+SUP001,SKF India,India,Bengaluru,10,4.7
+SUP002,Schaeffler India,India,Pune,12,4.6
+SUP003,Bosch India,India,Bengaluru,14,4.5
+SUP004,Bharat Forge,India,Pune,8,4.8
+SUP005,Sundram Fasteners,India,Chennai,7,4.7
+SUP006,Timken India,India,Jamshedpur,11,4.5
+SUP007,Freudenberg,Germany,Weinheim,18,4.6
+SUP008,NTN Corporation,Japan,Osaka,21,4.7
+SUP009,NSK Ltd,Japan,Tokyo,20,4.6
+SUP010,Continental,Germany,Hanover,15,4.4
