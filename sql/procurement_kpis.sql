@@ -3,8 +3,12 @@ SELECT SUM(Total_Cost) AS Total_Spend
 FROM Purchase_Orders
 
 --Number of purchase orders
+SELECT COUNT(*) AS Number_Of_Purchase_Orders
+FROM Purchase_Orders
 
 --Number of Suppliers used
+SELECT COUNT(DISTINCT Supplier_ID) AS Suppliers_Used
+FROM Purchase_Orders
 
 --Spend by supplier
 SELECT s.Supplier_Name, SUM(p.Total_Cost) AS Supplier_Spend

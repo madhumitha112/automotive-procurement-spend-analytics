@@ -14,7 +14,16 @@ FROM Deliveries
 
 
 --Supplier rankings
-
+-- KPI: Supplier Ranking by Total Procurement Spend
+SELECT RANK() OVER (ORDER BY SUM(p.Total_Cost) DESC) AS Supplier_Rank,
+s.Supplier_ID, s.Supplier_Name, SUM(p.Total_Cost) AS Total_Spend
+FROM Purchase_Orders p
+JOIN Suppliers s 
+ON s.Supplier_ID = p.Supplier_ID
+GROUP BY
+	s.Supplier_ID,
+	s.Supplier_Name
+ORDER BY Supplier_Rank
 
 --Top 5 most expensive materials
 SELECT TOP 5 Material_Name, Unit_Price
