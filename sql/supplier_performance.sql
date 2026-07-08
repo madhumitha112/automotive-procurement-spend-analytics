@@ -26,11 +26,16 @@ GROUP BY
 ORDER BY Supplier_Rank
 
 --Top 5 most expensive materials
-SELECT TOP 5 Material_Name, Unit_Price
-FROM Materials
-JOIN Purchase_Orders
-ON Materials.Material_ID = Purchase_Orders.Material_ID
-ORDER BY Unit_Price DESC
+SELECT TOP 5
+    m.Material_Name,
+    AVG(p.Unit_Price) AS Average_Price
+FROM Purchase_Orders p
+JOIN Materials m
+ON p.Material_ID = m.Material_ID
+GROUP BY
+    m.Material_ID,
+    m.Material_Name
+ORDER BY Average_Price DESC;
 
 --Top 10 purchase orders by value
 SELECT TOP 10 PO_ID, Total_Cost 

@@ -15,7 +15,7 @@ SELECT s.Supplier_Name, SUM(p.Total_Cost) AS Supplier_Spend
 FROM Purchase_Orders p
 JOIN Suppliers s
 ON s.Supplier_ID = p.Supplier_ID
-GROUP BY s.Supplier_Name
+GROUP BY s.Supplier_ID, s.Supplier_Name
 ORDER BY Supplier_Spend DESC
 
 --Spend by category
