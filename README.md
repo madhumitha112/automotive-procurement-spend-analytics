@@ -148,11 +148,45 @@ Plants -------- Purchase_Requisitions -------- Materials
 ## Technology Stack
 
 * Microsoft Excel
-* SQL (SQL Server Express + SSMS)
-* Power BI
-* DAX
+* SQL Server 2022 Express
+* SQL Server Management Studio (SSMS)
+* SQL
+* Power BI Desktop
+* DAX (Data Analysis Expressions)
 * Power Query
-* Git & GitHub
+* Git
+* GitHub
+* Visual Studio Code
+
+---
+
+## Repository Structure
+
+```
+automotive-procurement-spend-analytics
+│
+├── data
+│   ├── Suppliers.csv
+│   ├── Materials.csv
+│   ├── Purchase_Orders.csv
+│   └── Deliveries.csv
+│
+├── sql
+│   ├── exploratory_analysis.sql
+│   ├── procurement_kpis.sql
+│   └── supplier_performance.sql
+│
+├── powerbi
+│   └── Automotive_Procurement_Analytics.pbix
+│
+├── screenshots
+│   ├── page1_executive_summary.png
+│   ├── page2_supplier_performance_dashboard.png
+│   ├── page3_material_and_cost_analytics.png
+│   └── page4_procurement_insights_and_risk.png
+│
+└── README.md
+```
 
 ---
 
@@ -168,6 +202,33 @@ Plants -------- Purchase_Requisitions -------- Materials
 * Business Intelligence Reporting
 
 ---
+
+## SQL Concepts Used
+
+* SELECT Statements
+* INNER JOINs
+* Aggregate Functions (SUM, AVG, COUNT)
+* GROUP BY
+* ORDER BY
+* Window Functions (RANK)
+* CASE Statements
+* DISTINCT
+* CAST
+* Date Functions (YEAR, MONTH)
+
+## Power BI Features Used
+
+* Data Modeling
+* Relationship Management
+* DAX Measures
+* KPI Cards
+* Clustered Bar Charts
+* Line Charts
+* Donut Charts
+* Matrix Visuals
+* Interactive Slicers
+* Conditional Formatting
+* Cross-Filtering
 
 ## Project Workflow
 
@@ -187,6 +248,32 @@ Plants -------- Purchase_Requisitions -------- Materials
 * Identification of cost reduction opportunities.
 * Reduced procurement risks.
 * Data-driven decision making for strategic sourcing.
+
+---
+
+# Dashboard Preview
+
+## Executive Procurement Dashboard
+
+![Executive Dashboard](screenshots/page1_executive_summary.png)
+
+---
+
+## Supplier Performance Dashboard
+
+![Supplier Performance Dashboard](screenshots/page2_supplier_performance_dashboard.png)
+
+---
+
+## Material & Cost Analytics
+
+![Material & Cost Analytics](screenshots/page3_material_and_cost_analytics.png)
+
+---
+
+## Procurement Insights & Risk
+
+![Procurement Insights & Risk](screenshots/page4_procurement_insights_and_risk.png)
 
 ---
 
